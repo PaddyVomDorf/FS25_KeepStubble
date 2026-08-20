@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="rst_settingSection" text="Real Stubble Tillage"/>
+        <text name="rst_profileLabel" text="Chosen Profile"/>
+        <text name="rst_profileTooltip" text="Selects which Profile from the Modfolder is active while stuble tilling."/>
+    </texts>
+</l10n>

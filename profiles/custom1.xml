@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+	fruit name: Der Name der Frucht, so wie er z.b. in der fillTypes.xml eingetragen ist
+	densityReductionPercent: Der Faktor in % um den die Stoppeln bei jeder Überfahrt reduziert werden sollen. Bewusst niedrig (1-3) ansetzen!
+	targetFoliageState: Der Status der Frucht, welcher bei der Bearbeitung gesetzt werden soll.
+	volunteerGrain: Soll nach dem Stoppelsturz Ausfallgetreide wachsen? (true/false)
+	volunteerGrainChance: Die Wahrscheinlichkeit in % in der Ausfallgetreide wächst.
+	Neue / eigene Fruchtarten könnt ihr nach dem selben Schema einfach selbst ergänzen
+	
+	
+	fruit name: The name of the crop, exactly as it is listed, for example, in fillTypes.xml.
+	densityReductionPercent: The percentage by which the stubble should be reduced with each pass. Intentionally set low (1–3)!
+	targetFoliageState: The crop state that should be set during cultivation.
+	volunteerGrain: Should volunteer grain grow after tillage? (true/false)
+	volunteerGrainChance: The chance in % at which volunteer crop can grow.
+	New/custom crops can easily be added following the same pattern.
+-->
+<settings name="TemplateMap">
+    <fruit name="WHEAT" densityReductionPercent="1" targetFoliageState="10" volunteerGrain="true" volunteerGrainChance="10"/>
+	<fruit name="WINTERWHEAT" densityReductionPercent="1" targetFoliageState="10" volunteerGrain="true" volunteerGrainChance="10"/>
+    <fruit name="BARLEY" densityReductionPercent="1" targetFoliageState="10" volunteerGrain="true" volunteerGrainChance="10"/>
+	<fruit name="WINTERBARLEY" densityReductionPercent="1" targetFoliageState="10" volunteerGrain="true" volunteerGrainChance="10"/>
+	<fruit name="RYE" densityReductionPercent="1" targetFoliageState="10" volunteerGrain="true" volunteerGrainChance="10"/>
+	<fruit name="GREENRYE" densityReductionPercent="1" targetFoliageState="7" volunteerGrain="false" volunteerGrainChance="10"/>
+	<fruit name="VETCHRYE" densityReductionPercent="1" targetFoliageState="7" volunteerGrain="false" volunteerGrainChance="10"/>
+	<fruit name="SPELT" densityReductionPercent="1" targetFoliageState="10" volunteerGrain="true" volunteerGrainChance="10"/>
+	<fruit name="TRITICALE" densityReductionPercent="1" targetFoliageState="10" volunteerGrain="true" volunteerGrainChance="10"/>
+    <fruit name="CANOLA" densityReductionPercent="1" targetFoliageState="11" volunteerGrain="true" volunteerGrainChance="10"/>
+    <fruit name="OAT" densityReductionPercent="1" targetFoliageState="7" volunteerGrain="true" volunteerGrainChance="10"/>
+    <fruit name="MAIZE" densityReductionPercent="1" targetFoliageState="10" volunteerGrain="false" volunteerGrainChance="10"/>
+	<fruit name="SILAGEMAIZE" densityReductionPercent="1" targetFoliageState="9" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="SUNFLOWER" densityReductionPercent="1" targetFoliageState="10" volunteerGrain="true" volunteerGrainChance="10"/>
+    <fruit name="SOYBEAN" densityReductionPercent="1" targetFoliageState="9" volunteerGrain="true" volunteerGrainChance="10"/>
+    <fruit name="POTATO" densityReductionPercent="1" targetFoliageState="0" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="RICE" densityReductionPercent="1" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="RICELONGGRAIN" densityReductionPercent="1" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="SUGARBEET" densityReductionPercent="1" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="SORGHUM" densityReductionPercent="1" targetFoliageState="7" volunteerGrain="true" volunteerGrainChance="10"/>
+    <fruit name="BEETROOT" densityReductionPercent="1" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="CARROT" densityReductionPercent="1" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="PARSNIP" densityReductionPercent="1" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="GREENBEAN" densityReductionPercent="1" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="PEA" densityReductionPercent="1" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="SPINACH" densityReductionPercent="1" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="GRASS" densityReductionPercent="1" targetFoliageState="8" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="OILSEEDRADISH" densityReductionPercent="1" targetFoliageState="4" volunteerGrain="false" volunteerGrainChance="10"/>
+	<fruit name="FLOWERINGCATCHCROP" densityReductionPercent="1" targetFoliageState="6" volunteerGrain="false" volunteerGrainChance="10"/>
+	<fruit name="HUMUSACTIVE" densityReductionPercent="1" targetFoliageState="6" volunteerGrain="false" volunteerGrainChance="10"/>
+	<fruit name="MUSTARD" densityReductionPercent="1" targetFoliageState="6" volunteerGrain="false" volunteerGrainChance="10"/>
+	<fruit name="ALFALFA" densityReductionPercent="1" targetFoliageState="7" volunteerGrain="false" volunteerGrainChance="10"/>
+	<fruit name="CLOVER" densityReductionPercent="1" targetFoliageState="7" volunteerGrain="false" volunteerGrainChance="10"/>
+	<fruit name="FIELDGRASS" densityReductionPercent="1" targetFoliageState="7" volunteerGrain="false" volunteerGrainChance="10"/>
+    <fruit name="MEADOW" densityReductionPercent="1" targetFoliageState="8" volunteerGrain="false" volunteerGrainChance="10"/>
+   <default densityReductionPercent="2" targetFoliageState="-1" volunteerGrain="false" volunteerGrainChance="10"/>
+</settings>

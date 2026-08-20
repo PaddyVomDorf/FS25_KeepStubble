@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="rst_settingSection" text="Realer Stoppelbruch"/>
+        <text name="rst_profileLabel" text="Profil-Auswahl"/>
+        <text name="rst_profileTooltip" text="Wählt, welches Profil aus dem Mordordner beim Stoppelsturz aktiv ist."/>
+    </texts>
+</l10n>

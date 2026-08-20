@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="105">
+    <author>DeinName</author>
+    <version>1.5.3.0</version>
+    <title>
+        <de>Reale Stoppelbearbeitung</de>
+        <en>Real Stubble Tillage</en>
+    </title>
+    <description>
+        <de><![CDATA[Nach dem Stoppelsturz mit dem Flachgrubber oder der Scheibenegge bleibt ein Teil der Foliage sichtbar, statt komplett entfernt zu
+		werden und es wächst reales Ausfallgetreide nach. 
+		Drei Profile (mit pro Fruchtart einstellbaren Werten - im Modordner zu finden), sind in den Spiel-Einstellungen auswählbar. 
+		Eigene Fruchtarten können dort ebenfalls ergänzt werden.]]></de>
+        <en><![CDATA[After tillage with the cultivator or disc harrow, part of the foliage remains visible instead of being completely removed
+		and real Volunteer Grain grows after it.
+		Three profiles (with per-crop-type adjustable values - found in the mod folder), are selectable in the game settings. 
+		Custom crop types can also be added there.]]></en>
+    </description>
+
+    <extraSourceFiles>
+        <sourceFile filename="src/RealStubbleTillage.lua"/>
+    </extraSourceFiles>
+	
+	<iconFilename>icon_stubbleTillage.dds</iconFilename>
+
+    <l10n filenamePrefix="translations/l10n"/>
+
+    <multiplayer supported="false"/>
+</modDesc>
