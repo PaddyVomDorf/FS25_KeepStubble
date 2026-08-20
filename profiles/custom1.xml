@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+	Für jede Fruchtart einzeln einstellbar:
+	
+    - densityReductionPercent: wie viel Prozent der Foliage entfernt wird
+	
+    - targetFoliageState: 
+	"-1"/"cut" = automatischer Vanilla Stoppelzustand
+    "0" = wie Original komplett entfernen, 
+	"1".."16" = feste Wachstumsstufe erzwingen (wird pro Frucht automatisch auf deren echtes Maximum begrenzt)
+
+    Eigene/fehlende Fruchtarten kannst du einfach als weiteren <fruit>-
+    Eintrag hinzufuegen (name = exakter Fruchttyp-Name, z.B. ALFALFA). 
+	Fruchtarten, die hier nicht eingetragen sind, nutzen automatisch die <default>-Werte ganz unten.
+	
+	Den Namen des Profils bitte NUR hier ändern, nicht die Datei umbenennen!
+-->
+<settings name="StubbleDestr.">
+    <fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"/>
+	<fruit name="WINTERWHEAT" densityReductionPercent="2" targetFoliageState="10"/>
+    <fruit name="BARLEY" densityReductionPercent="2" targetFoliageState="10"/>
+	<fruit name="WINTERBARLEY" densityReductionPercent="2" targetFoliageState="10"/>
+	<fruit name="RYE" densityReductionPercent="2" targetFoliageState="10"/>
+	<fruit name="GREENRYE" densityReductionPercent="2" targetFoliageState="7"/>
+	<fruit name="VETCHRYE" densityReductionPercent="2" targetFoliageState="7"/>
+	<fruit name="SPELT" densityReductionPercent="2" targetFoliageState="10"/>
+	<fruit name="TRITICALE" densityReductionPercent="2" targetFoliageState="10"/>
+    <fruit name="CANOLA" densityReductionPercent="2" targetFoliageState="11"/>
+    <fruit name="OAT" densityReductionPercent="2" targetFoliageState="7"/>
+    <fruit name="MAIZE" densityReductionPercent="2" targetFoliageState="10"/>
+	<fruit name="SILAGEMAIZE" densityReductionPercent="2" targetFoliageState="9"/>
+    <fruit name="SUNFLOWER" densityReductionPercent="2" targetFoliageState="10"/>
+    <fruit name="SOYBEAN" densityReductionPercent="2" targetFoliageState="9"/>
+    <fruit name="POTATO" densityReductionPercent="2" targetFoliageState="0"/>
+    <fruit name="RICE" densityReductionPercent="2" targetFoliageState="-1"/>
+    <fruit name="RICELONGGRAIN" densityReductionPercent="2" targetFoliageState="-1"/>
+    <fruit name="SUGARBEET" densityReductionPercent="2" targetFoliageState="-1"/>
+    <fruit name="SORGHUM" densityReductionPercent="2" targetFoliageState="7"/>
+    <fruit name="BEETROOT" densityReductionPercent="2" targetFoliageState="-1"/>
+    <fruit name="CARROT" densityReductionPercent="2" targetFoliageState="-1"/>
+    <fruit name="PARSNIP" densityReductionPercent="2" targetFoliageState="-1"/>
+    <fruit name="GREENBEAN" densityReductionPercent="2" targetFoliageState="-1"/>
+    <fruit name="PEA" densityReductionPercent="2" targetFoliageState="-1"/>
+    <fruit name="SPINACH" densityReductionPercent="2" targetFoliageState="-1"/>
+    <fruit name="GRASS" densityReductionPercent="2" targetFoliageState="8"/>
+    <fruit name="OILSEEDRADISH" densityReductionPercent="2" targetFoliageState="4"/>
+	<fruit name="FLOWERINGCATCHCROP" densityReductionPercent="2" targetFoliageState="6"/>
+	<fruit name="HUMUSACTIVE" densityReductionPercent="2" targetFoliageState="6"/>
+	<fruit name="MUSTARD" densityReductionPercent="2" targetFoliageState="6"/>
+	<fruit name="ALFALFA" densityReductionPercent="2" targetFoliageState="7"/>
+	<fruit name="CLOVER" densityReductionPercent="2" targetFoliageState="7"/>
+	<fruit name="FIELDGRASS" densityReductionPercent="2" targetFoliageState="7"/>
+    <fruit name="MEADOW" densityReductionPercent="2" targetFoliageState="8"/>
+    <default densityReductionPercent="2" targetFoliageState="-1"/>
+</settings>
