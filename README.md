@@ -3,7 +3,8 @@ komplett entfernt zu werden.
 Drei Profile mit pro Fruchtart einstellbaren Werten (im Modordner zu finden), in den Spiel-Einstellungen auswählbar. 
 Eigene Fruchtarten können dort ebenfalls ergänzt werden.
 
-Beispiel aus der der custom1.xml
+Beispiel aus der der custom1.xml:
+
 settings name="DEIN NAME"
 Hier könnt ihr einen eigenen Profilnamen eintragen, der so auch im Ingame-Menü angezeigt wird
 NICHT die Datei an sich umbenennen! Das Profil kann sonst nicht mehr geladen werden!
