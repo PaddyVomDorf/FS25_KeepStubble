@@ -24,6 +24,7 @@ fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
   wieder zurück zum Wunschprofil wechseln und eure Änderungen sind aktiv!
 - targetFoliageState: Der Status der Frucht, welcher bei der Bearbeitung gesetzt werden soll.
 - volunteerGrain: Soll nach dem Stoppelsturz Ausfallgetreide wachsen? (true/false)
+- volunteerGrainChance: Die Wahrscheinlichkeit in % mit der Ausfallgetreide wächst.
 - Neue / eigene Fruchtarten könnt ihr nach dem selben Schema einfach selbst ergänzen
 
 _________________________________________________________________________
