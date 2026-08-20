@@ -6,8 +6,8 @@ Eigene Fruchtarten können dort ebenfalls ergänzt werden.
 Beispiel aus der der custom1.xml:
 
 settings name="DEIN NAME"
-Hier könnt ihr einen eigenen Profilnamen eintragen, der so auch im Ingame-Menü angezeigt wird
-NICHT die Datei an sich umbenennen! Das Profil kann sonst nicht mehr geladen werden!
+- Hier könnt ihr einen eigenen Profilnamen eintragen, der so auch im Ingame-Menü angezeigt wird
+  NICHT die Datei an sich umbenennen! Das Profil kann sonst nicht mehr geladen werden!
 
 fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
 - fruit name: Der Name der Frucht, so wie er z.b. in der fillTypes.xml eingetragen ist
@@ -31,9 +31,10 @@ Three profiles with crop-specific configurable values (found in the mod folder) 
 Custom crops can also be added there.
 
 Example from custom1.xml:
+
 settings name="YOUR NAME"
-Here, you can enter your own profile name, which will also be displayed in the in-game menu.
-DO NOT rename the file itself! Otherwise, the profile can no longer be loaded!
+- Here, you can enter your own profile name, which will also be displayed in the in-game menu.
+  DO NOT rename the file itself! Otherwise, the profile can no longer be loaded!
 
 fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
 - fruit name: The name of the crop, exactly as it is listed, for example, in fillTypes.xml.
