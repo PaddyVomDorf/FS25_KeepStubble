@@ -11,7 +11,7 @@ settings name="DEIN NAME"
 
 fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
 - fruit name: Der Name der Frucht, so wie er z.b. in der fillTypes.xml eingetragen ist
-- densityReductionPercent: Der Faktor in % um den die Stoppeln bei jeder Überfahrt reduziert werden sollen
+- densityReductionPercent: Der Faktor in % um den die Stoppeln bei jeder Überfahrt reduziert werden sollen.
   Bewusst niedrig (1-3) ansetzen, höhere Werte dünnen die Stoppeln sehr schnell aus
 - targetFoliageState: Der Status der Frucht, welcher bei der Bearbeitung gesetzt werden soll.
   Hängt stark von der vewendeten Karte und der jeweiligen Frucht ab!
