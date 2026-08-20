@@ -4,11 +4,11 @@ Drei Profile mit pro Fruchtart einstellbaren Werten (im Modordner zu finden), in
 Eigene Fruchtarten können dort ebenfalls ergänzt werden.
 
 Beispiel aus der der custom1.xml
-<settings name="DEIN NAME"> 
+settings name="DEIN NAME"
 Hier könnt ihr einen eigenen Profilnamen eintragen, der so auch im Ingame-Menü angezeigt wird
 NICHT die Datei an sich umbenennen! Das Profil kann sonst nicht mehr geladen werden!
 
-<fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"/>
+fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
 - fruit name: Der Name der Frucht, so wie er z.b. in der fillTypes.xml eingetragen ist
 - densityReductionPercent: Der Faktor in % um den die Stoppeln bei jeder Überfahrt reduziert werden sollen
   Bewusst niedrig (1-3) ansetzen, höhere Werte dünnen die Stoppeln sehr schnell aus
@@ -30,11 +30,11 @@ Three profiles with crop-specific configurable values (found in the mod folder) 
 Custom crops can also be added there.
 
 Example from custom1.xml:
-<settings name="YOUR NAME">
+settings name="YOUR NAME"
 Here, you can enter your own profile name, which will also be displayed in the in-game menu.
 DO NOT rename the file itself! Otherwise, the profile can no longer be loaded!
 
-<fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"/>
+fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
 - fruit name: The name of the crop, exactly as it is listed, for example, in fillTypes.xml.
 - densityReductionPercent: The percentage by which the stubble should be reduced with each pass.
   It is intentionally set low (1–3). Higher values will thin out the stubble very quickly.
