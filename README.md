@@ -1,7 +1,11 @@
 Nach dem Stoppelsturz mit dem Flachgrubber oder der Scheibenegge bleibt ein Teil der Foliage sichtbar, statt komplett 
 entfernt zu werden und es wächst reales Ausfallgetreide nach. 
-Drei Profile mit pro Fruchtart einstellbaren Werten (im Modordner zu finden), in den Spiel-Einstellungen auswählbar. 
+Ausfallgetreide wächst immer zum Tageswechsel, um eine Balance zwischen Spielfluss und Realität zu haben.
+
+Drei Profile mit pro Fruchtart einstellbaren Werten (im Modordner zu finden), sind in den Spiel-Einstellungen auswählbar.
 Eigene Fruchtarten können dort ebenfalls ergänzt werden.
+Es sind bereits zwei vorkonfigurierte Profile vorhanden für Standard Maps (Vanilla) und Karten, welche das Template der WeekendFarmers/T4xs (TemplateMap) nutzen.
+
 
 Beispiel aus der der custom1.xml:
 
@@ -31,8 +35,11 @@ _________________________________________________________________________
 
 After tillage with the cultivator or disc harrow, part of the foliage remains visible instead of being 
 completely removed and real Volunteer Grain grows after it.
-Three profiles with per-crop-type adjustable values (found in the mod folder), selectable in the game settings. 
+Volunteer Grain grows every day to keep a balance between realism and fun gameplay.
+Three profiles with per-crop-type adjustable values (found in the mod folder), selectable in the game settings.
 Custom crop types can also be added there.
+There are two pre-configured profiles for Giants Maps (Vanilla) or maps that use the Template from WeekendFarmers/T4xs (TemplateMap)
+
 
 Example from custom1.xml:
 
