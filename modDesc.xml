@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="105">
-    <author>DeinName</author>
-    <version>1.5.3.0</version>
+    <author>Paddy</author>
+    <version>1.0.0.0</version>
     <title>
         <de>Reale Stoppelbearbeitung</de>
         <en>Real Stubble Tillage</en>
@@ -25,5 +25,5 @@
 
     <l10n filenamePrefix="translations/l10n"/>
 
-    <multiplayer supported="false"/>
+    <multiplayer supported="true"/>
 </modDesc>
