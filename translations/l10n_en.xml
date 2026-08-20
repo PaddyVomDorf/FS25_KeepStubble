@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<l10n>
-    <texts>
-        <text name="ksm_settingSection" text="Keep Stubble"/>
-        <text name="ksm_profileLabel" text="Stubble Profile"/>
-        <text name="ksm_profileTooltip" text="Selects which profile is active."/>
-    </texts>
-</l10n>
