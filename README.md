@@ -1,5 +1,5 @@
-Nach der Bodenbearbeitung mit dem Flachgrubber oder der Scheibenegge bleibt ein Teil der Stoppeln sichtbar statt 
-komplett entfernt zu werden. 
+Nach dem Stoppelsturz mit dem Flachgrubber oder der Scheibenegge bleibt ein Teil der Foliage sichtbar, statt komplett 
+entfernt zu werden und es wächst reales Ausfallgetreide nach. 
 Drei Profile mit pro Fruchtart einstellbaren Werten (im Modordner zu finden), in den Spiel-Einstellungen auswählbar. 
 Eigene Fruchtarten können dort ebenfalls ergänzt werden.
 
@@ -22,13 +22,16 @@ fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
   gewünschten Ergebnis seid und diese Zahl dann hier eintragen.
   Das könnt ihr auch ohne Neustart des Spiels testen. Einfach Werte ändern, speichern, Ingame kurz ein anderes Profil wählen,
   wieder zurück zum Wunschprofil wechseln und eure Änderungen sind aktiv!
+- targetFoliageState: Der Status der Frucht, welcher bei der Bearbeitung gesetzt werden soll.
+- volunteerGrain: Soll nach dem Stoppelsturz Ausfallgetreide wachsen? (true/false)
 - Neue / eigene Fruchtarten könnt ihr nach dem selben Schema einfach selbst ergänzen
 
 _________________________________________________________________________
 
-After tillage with a cultivator or disc harrow, some of the stubble remains visible instead of being completely removed.
-Three profiles with crop-specific configurable values (found in the mod folder) can be selected in the game settings. 
-Custom crops can also be added there.
+After tillage with the cultivator or disc harrow, part of the foliage remains visible instead of being 
+completely removed and real Volunteer Grain grows after it.
+Three profiles with per-crop-type adjustable values (found in the mod folder), selectable in the game settings. 
+Custom crop types can also be added there.
 
 Example from custom1.xml:
 
@@ -47,4 +50,6 @@ fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
   Then count up from there until you reach the desired result, and enter that number here.
   You can also test this without restarting the game. Simply change the values, save the file, briefly select a different profile in-game,
   then switch back to your desired profile — your changes will be active immediately!
+- volunteerGrain: Should volunteer grain grow after tillage? (true/false)
+- volunteerGrainChance: The chance in % at which volunteer crop can grow.
 - New/custom crops: You can easily add your own crops following the same pattern.
