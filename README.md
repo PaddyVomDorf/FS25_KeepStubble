@@ -18,9 +18,7 @@ fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
 - densityReductionPercent: Der Faktor in % um den die Stoppeln bei jeder Überfahrt reduziert werden sollen.
   Bewusst niedrig (1-3) ansetzen, höhere Werte dünnen die Stoppeln sehr schnell aus
 - targetFoliageState: Der Status der Frucht, welcher bei der Bearbeitung gesetzt werden soll.
-  Hängt stark von der vewendeten Karte und der jeweiligen Frucht ab!
-  Das "Vanilla" Profil funktioniert auf den Standard-Karten, "StubbleDestr." sollte auf Karten mit
-  Stoppelzerstörung und zusätzlichen Früchten (z.B. Triticale oder Roggen) funktionieren.
+  Hängt stark von der vewendeten Karte und der jeweiligen Frucht ab.
   Wenn etwas nicht wie gewünscht aussieht, am besten mit den Easy Development Controls den Zustand
   zuerst auf "gesät" setzen (gesät entpricht FoliageState "1") und von dort aus mitzählen, bis ihr beim
   gewünschten Ergebnis seid und diese Zahl dann hier eintragen.
@@ -53,7 +51,6 @@ fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
   It is intentionally set low (1–3). Higher values will thin out the stubble very quickly.
 - targetFoliageState: The crop state that should be set during cultivation.
   This depends heavily on the map being used and the respective crop!
-  The "Vanilla" profile works on the standard maps, while "StubbleDestr." should work on maps with stubble destruction and additional crops (e.g. triticale or rye).
   If something does not look as expected, it is best to use Easy Development Controls to first set the state to "sown" (FoliageState "1").
   Then count up from there until you reach the desired result, and enter that number here.
   You can also test this without restarting the game. Simply change the values, save the file, briefly select a different profile in-game,
