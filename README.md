@@ -60,3 +60,6 @@ fruit name="WHEAT" densityReductionPercent="2" targetFoliageState="10"
 - volunteerGrain: Should volunteer grain grow after tillage? (true/false)
 - volunteerGrainChance: The chance in % at which volunteer crop can grow.
 - New/custom crops: You can easily add your own crops following the same pattern.
+
+
+THIS MOD WAS MADE WITH THE HELP OF AI
