@@ -1,3 +1,5 @@
+<img width="512" height="512" alt="icon_stubbleTillage" src="https://github.com/user-attachments/assets/3f96b777-befd-4acd-8437-35eafe4cd992" />
+
 Nach dem Stoppelsturz mit dem Flachgrubber oder der Scheibenegge bleibt ein Teil der Foliage sichtbar, statt komplett 
 entfernt zu werden und es wächst reales Ausfallgetreide nach. 
 Ausfallgetreide wächst immer zum Tageswechsel, um eine Balance zwischen Spielfluss und Realität zu haben.
